@@ -20,7 +20,7 @@ export default function Home() {
             un dossier Campus France solide, sans stress et sans confusion.
           </p>
 
-          <Link href="/documents">
+          <Link href="/document">
             <Button className="mt-8 bg-blue-600 dark:bg-blue-500 text-white hover:bg-blue-700 dark:hover:bg-blue-600 px-6 py-3 rounded-xl text-lg transition-colors cursor-pointer">
               Démarrer le parcours
             </Button>
@@ -95,7 +95,7 @@ export default function Home() {
             La réussite de ton dossier commence avec une bonne organisation.
             Laisse-nous t'accompagner du début jusqu'à la validation finale.
           </p>
-          <Link href="/documents">
+          <Link href="/document">
             <Button className="mt-8 bg-blue-600 dark:bg-blue-500 text-white hover:bg-blue-700 dark:hover:bg-blue-600 px-8 py-4 rounded-xl text-lg transition-colors cursor-pointer">
               Accéder au guide complet
             </Button>
