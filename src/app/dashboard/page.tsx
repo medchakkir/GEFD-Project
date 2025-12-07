@@ -54,12 +54,6 @@ export default function Page() {
           </div>
         </header>
         <div className="flex flex-1 flex-col gap-4 p-4 pt-0 overflow-y-auto">
-          <div className="grid auto-rows-min gap-4 md:grid-cols-3">
-            {/* Placeholders globaux pour des visuels généraux si tu veux */}
-            <div className="bg-muted/50 aspect-video rounded-xl" />
-            <div className="bg-muted/50 aspect-video rounded-xl" />
-            <div className="bg-muted/50 aspect-video rounded-xl" />
-          </div>
           <DashboardContent />
         </div>
       </SidebarInset>
@@ -276,7 +270,6 @@ function DashboardContent() {
           </div>
         </div>
       </section>
-      //... suite du contenu après la section id="activation-compte"
 
       {/* Section 4 : Etat civil */}
       <section
