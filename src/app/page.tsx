@@ -28,7 +28,7 @@ export default function Home() {
             </p>
 
             <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
-              <Link href="/dashboard">
+              <Link href="/docs">
                 <Button
                   size="lg"
                   className="w-full px-8 py-6 text-base sm:w-auto sm:px-10 sm:py-6 sm:text-lg"
@@ -125,7 +125,7 @@ export default function Home() {
               Laisse-nous t&apos;accompagner du début jusqu&apos;à la validation
               finale.
             </p>
-            <Link href="/dashboard">
+            <Link href="/docs">
               <Button size="lg" className="w-full sm:w-auto">
                 Accéder au guide complet
               </Button>
