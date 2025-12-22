@@ -11,6 +11,12 @@ export const metadata: Metadata = {
   },
   description:
     "Ce site est un guide pour les étudiants de l'Ecampus France Djibouti.",
+  metadataBase: new URL('https://gefd-project.vercel.app'),
+  openGraph: {
+    title: 'GEFD - Guide Ecampus France Djibouti',
+    description:
+      "Ce site est un guide pour les étudiants de l'Ecampus France Djibouti.",
+  },
 };
 
 export default function RootLayout({
