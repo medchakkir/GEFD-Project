@@ -660,3 +660,5 @@ Le projet peut être déployé en production après configuration d'EmailJS. Les
 
 *Analyse générée le: ${new Date().toLocaleDateString('fr-FR', { year: 'numeric', month: 'long', day: 'numeric', hour: '2-digit', minute: '2-digit' })}*
 
+
+

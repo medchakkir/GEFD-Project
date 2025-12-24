@@ -41,3 +41,5 @@ images.forEach(imageName => {
 console.log('Placeholder images created!');
 
 
+
+

@@ -48,3 +48,5 @@ console.log('\n Tous les placeholders ont été créés!');
 console.log('⚠️  Remplacez ces fichiers par de vraies images quand vous les aurez.');
 
 
+
+

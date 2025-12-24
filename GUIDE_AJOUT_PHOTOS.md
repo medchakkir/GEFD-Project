@@ -92,3 +92,5 @@ Il vous suffit d'ajouter les fichiers images dans le dossier `public/images/docs
 **Besoin d'aide ?** Consultez le fichier `PLACEHOLDERS_PHOTOS.md` à la racine du projet pour plus de détails.
 
 
+
+
