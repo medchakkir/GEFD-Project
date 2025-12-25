@@ -17,8 +17,11 @@ export default async function Page(props: PageProps<'/docs/[[...slug]]'>) {
 
   const MDX = page.data.body;
 
+  // Filtrer la table des matières pour n'afficher que les titres principaux (depth === 2)
+  const filteredToc = page.data.toc?.filter((item: { depth: number }) => item.depth === 2) ?? [];
+
   return (
-    <DocsPage toc={page.data.toc} full={page.data.full}>
+    <DocsPage toc={filteredToc} full={page.data.full}>
       <DocsTitle>{page.data.title}</DocsTitle>
       <DocsDescription>{page.data.description}</DocsDescription>
       <DocsBody>
